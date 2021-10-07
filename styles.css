@@ -15,7 +15,7 @@ body, html {
   justify-content: space-around;
 
   padding-top: 2vh;
-  height: 130vmax;
+  height: 100%;
 }
 
 .colorCard {
@@ -28,7 +28,7 @@ body, html {
 
   width: 14vw;
   height: 39vh;
-  margin: 1vmin;
+  margin: 6vmin;
   border-radius: 5px;
 }
 
