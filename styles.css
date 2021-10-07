@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainContent {
+  background-color: #f1f0ed;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  padding-top: 2vh;
+  height: 130vmax;
+}
+
+.colorCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  background-color: #fffef8;
+
+  width: 14vw;
+  height: 39vh;
+  margin: 1vmin;
+  border-radius: 5px;
+}
+
+.colorCard p {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  margin: 1px;
+  padding: 0px;
+}
+
+.colorCard .colorBox {
+  border-radius: 5px;
+  width: 13vw;
+  height: 35vh;
+  margin: 1vmin;
+}
+
+.colorCard .colorBox:hover {
+  border-radius: 5px;
+  width: 13vw;
+  height: 35vh;
+  box-shadow: 5px 6px 2px #d1d1d1;
+  transition-duration: .5s
+}
+
+/* *********** COLORS *********** COLORS *********** COLORS  *********** */
+#color-d23918 .colorBox {
+background-color: #d23918;
+}
+
+#color-ab1d22 .colorBox {
+background-color: #ab1d22;
+}
+
+#color-f2c867 .colorBox {
+background-color: #f2c867;
+}
+
+#color-bf9c46 .colorBox {
+background-color: #bf9c46;
+}
+
+#color-6ca8af .colorBox {
+background-color: #6ca8af;
+}
+
+#color-2a6e3f .colorBox {
+background-color: #2a6e3f;
+}
+
+#color-06436f .colorBox {
+background-color: #06436f;
+}
+
+#color-12264f .colorBox {
+background-color: #12264f;
+}
+
+#color-4a4b9d .colorBox {
+background-color: #4a4b9d;
+}
+
+#color-88abda .colorBox {
+background-color: #88abda;
+}
+
+#color-ed6d46 .colorBox {
+background-color: #ed6d46;
+}
+
+#color-daa9a9 .colorBox {
+background-color: #daa9a9;
+}
+
+#color-f6bec8 .colorBox {
+background-color: #f6bec8;
+}
+
+#color-f0cfe3 .colorBox {
+background-color: #f0cfe3;
+}
+
+#color-ffee6f .colorBox {
+background-color: #ffee6f;
+}
+
+#color-c3d94e .colorBox {
+background-color: #c3d94e;
+}
